@@ -1,0 +1,276 @@
+❯ history
+    1  tmux
+    2  ls
+    3  tmux
+    4  tmux a
+    5  ls
+    6  yeas
+    7  ls
+    8  mkdir kong
+    9  cd kong
+   10  vi docker-compose.yml
+   11  docker-compose up
+   12  vi kong/docker-compose.yml
+   13  docker-compose exec pg
+   14  docker-compose exec pg bash
+   15  cd kong
+   16  ls
+   17  docker-compose exec pg bash
+   18  ls
+   19  docker-compose ps
+   20  docker-compose restart kong konga
+   21  docker-compose exec kong  ash
+   22  docker-compose exec kong bash
+   23  docker-compose exec kong-shell bash
+   24  docker-compose restart kong konga
+   25  docker-compose exec konga bash
+   26  vi docker-compose.yml
+   27  docker-compose up -d
+   28  docker-compose ps
+   29  tmux a
+   30  _ifconfig
+   31  ufw allow 8000
+   32  docker ps
+   33  sudo apt install nginx
+   34  cd /etc/nginx
+   35  ls
+   36  cd sites-enabled
+   37  ls
+   38  mkdir htdocs
+   39  cd htdocs
+   40  ls
+   41  mkdir dir1 dir2
+   42  vi dir1/index.html
+   43  vi dir2/index.html
+   44  chmod -R 777 .
+   45  ls
+   46  vi kongtest
+   47  nginx -t
+   48  service nginx reload
+   49  curl localhost:8080/
+   50  cd ..
+   51  ls
+   52  mv htdocs /
+   53  chmod 777 /htdocs
+   54  curl localhost:8080/
+   55  vi kongtest
+   56  nginx -t
+   57  service nginx reload
+   58  curl localhost:8080/
+   59  curl localhost:8081
+   60  ifconfig
+   61  ifocnfig
+   62  sudo apt-get install net-tools
+   63  ifconfig
+   64  cd kong
+   65  ls
+   66  docker-compose exec kong bash
+   67  docker ps
+   68  docker-compose exec kong bash
+   69  ifconfig
+   70  ls
+   71  cat kong
+   72  ls
+   73  ls kong
+   74  ls
+   75  find kong
+   76  vi kong/docker-compose.yml
+   77  ls
+   78  cd kong
+   79  ls
+   80  cat docker-compose.yml
+   81  vi docker-compose.yml
+   82  ls
+   83  cd kong
+   84  ls
+   85  cat docker-compose.yml
+   86  vi docker-compose.yml
+   87  \ndocker-compose up -d konga
+   88  docker ps
+   89  ls
+   90  docker ps
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd kong
+   95  ls
+   96  vi docker-compose.yml
+   97  ls
+   98  docker ps
+   99  ls
+  100  pwd
+  101  cd kong
+  102  ls
+  103  vi docker-compose.yml
+  104  pwd
+  105  ls
+  106  cd kong
+  107  ls
+  108  cd kong
+  109  vi docker-compose.yml
+  110  docker-compose up -d --force-recreate
+  111  docker ps
+  112  vi docker-compose.yml
+  113  docker-compose down
+  114  docker-compose up -d --force-recreate
+  115  vi docker-compose.yml
+  116  docker-compose ps
+  117  docker-compose ps kong
+  118  docker-compose up kong
+  119  vi docker-compose.yml
+  120  docker-compose up kong
+  121  vi docker-compose.yml
+  122  docker-compose up kong --force-recreate
+  123  docker-compose up  --force-recreate kong
+  124  vi docker-compose.yml
+  125  docker-compose up  --force-recreate kong
+  126  docker-compose ps
+  127  docker-compose down kong-prepare
+  128  docker-compose down kong-shell
+  129  ls
+  130  vi docker-compose.yml
+  131  docker-compose kong-shell down
+  132  docker-compose down kong-shell
+  133  docker-compose down kong-shell --remove-or
+  134  docker ps
+  135  docker stop kong_kong-shell_1
+  136  docker-compose up  --force-recreate kong
+  137  docke ps
+  138  curl localhost:8001
+  139  docker ps
+  140  docker-compose down
+  141  docker-compose up kong
+  142  sudo reboot
+  143  docker ps
+  144  docker ps -a
+  145  ls
+  146  cd kong
+  147  docker-compose up kong
+  148  sudo docker ps
+  149  vi docker-compose.yml
+  150  sudo docker ps
+  151  docker-compose up kong
+  152  docker-compose up pg kong  konga
+  153  ls
+  154  vi docker-compose.yml
+  155  tmux
+  156  docker-compose up pg kong konga --force-recreate
+  157  docker-compose up pg kong konga
+  158  docker-compose up pg
+  159  docker-compose up konga
+  160  docker ps
+  161  ls
+  162  vi docker-compose.yml
+  163  docke rps -a
+  164  docker ps -a
+  165  docker restart kong
+  166  docker-compose restart kong
+  167  docker-compose logs -f kong
+  168  sudo ufw allow 8001
+  169  ls
+  170  vi docker-compose.yml
+  171  ls
+  172  cd kong
+  173  ls
+  174  vi docker-compose.yml
+  175  docker-compose up pg kong konga --force-recreate
+  176  docker-compose down
+  177  docker-compose up pg kong konga --force-recreate
+  178  docker-compose up --force-recreate
+  179  hist
+  180  histto
+  181  history
+  182  sudo su
+  183  cd
+  184  hist
+  185  history
+  186  ls
+  187  cd /root
+  188  ls
+  189  cd /etc/nginx
+  190  ls
+  191  cd sites-enabled
+  192  ls
+  193  vi kongtest
+  194  ls
+  195  vi kongtest
+  196  cd /htdocs
+  197  ls
+  198  find .
+  199  cd /htdocs
+  200  ls
+  201  l
+  202  cd /etc/nginx
+  203  ls
+  204  cd site-a
+  205  ls
+  206  cd sites-available
+  207  ls
+  208  vi default
+  209  cd ../sites-enabled
+  210  ls
+  211  vi kongtest
+  212  sudo systemctl status nginx.service
+  213  sudo systemctl restart nginx.service
+  214  ifconfig| grep inet
+  215  sudo systemctl restart nginx.service
+  216  vi kongtest
+  217  sudo systemctl restart nginx.service
+  218  ls
+  219  vi kongtest
+  220  sudo apt-get install vim
+  221  vi kongtest
+  222  ls
+  223  cd /root
+  224  ls
+  225  vi /etc/nginx/sites-enabled/kongtest
+  226  docker ps
+  227  sudo reboot
+  228  curl lb1.direx.finance
+  229  curl https://lb1.direx.finance
+  230  watch -n1 curl https://lb1.direx.finance
+  231  watch -n1 curl -s  https://lb1.direx.finance
+  232  watch -n.5 curl -s  https://lb1.direx.finance
+  233  watch -n.1 curl -s  https://lb1.direx.finance
+  234  w
+  235  date
+  236  ls
+  237  docker ps
+  238  htop
+  239  docker ps
+  240  docker ps -a
+  241  ls
+  242  cd kong
+  243  ls
+  244  cat docker-compose.yml
+  245  hist
+  246  history
+  247  ls
+  248  cd kong
+  249  ls
+  250  history | grep nginx
+  251  vi /etc/nginx/nginx.conf
+  252  ls
+  253  cd kong
+  254  ls
+  255  vi docker-compose.yml
+  256  ls
+  257  cd
+  258  tmux a
+  259  vi /etc/nginx/nginx.conf
+  260  history
+  261  ld
+  262  ls
+  263  htop
+  264  ls
+  265  cd kong
+  266  ls
+  267  vi docker-compose.yml
+  268  git remot e-v
+  269  git remote -v
+  270  git init
+  271  ls
+  272  cat docker-compose.yml
+  273  ls
+  274  hist
+~ ❯                                                                       root@ubuntu-s-1vcpu-1gb-intel-sgp1-01
